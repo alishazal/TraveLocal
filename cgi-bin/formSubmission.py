@@ -21,6 +21,8 @@ area = data['area'].value
 
 #Printing out message for the user
 print("<h1 align='center'> Dear", name + ",<br/><br/> Your request has been noted.<br/> We'll email you 15 minutes before", time,"on", email +  ".<br/>We hope you have a safe ride to", area+".</h1>")
+print("<form action='http://i5.abudhabi.nyu.edu/~as10505/scheduler.htm'>")
+print("<center></br><input type='submit' name='submit' value='Schedule Another Reminder'></center>")
 
 #Closing the html
 print("</body></html>")
