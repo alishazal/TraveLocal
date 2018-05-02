@@ -1,0 +1,48 @@
+body{
+
+	background-color: #4B0082;
+	color: #ffffff;
+	margin: 20px;
+}
+
+form{
+
+	background-color:#ffffff ;
+	color: #41265b;
+	margin: 20px;
+	border: 5px darkblue solid;
+	font-size: 12 px;
+	font-family: Arial;
+	width:600px;
+	padding: 20px;
+	text-align: left;
+	padding: 10px;
+
+}
+
+input, textarea, select {
+	padding: 10px;
+	margin: 5px;
+
+}
+
+a:link {
+
+	color: red;
+	text-decoration: none;
+}
+
+a:visited {
+
+	color: green
+}
+
+a:hover {
+
+	color: hotpink
+}
+
+a:active {
+
+	color: yellow
+}
